@@ -1,0 +1,41 @@
+﻿<html>
+<head>
+    <!-- 页面标题 -->
+    <title>花园推箱子</title>
+    <!-- 防止页面乱码 -->
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <!-- 链接到动画效果css -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <!-- 链接到样式表 -->
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <!-- 引用动画效果js文件 -->
+    <script charset="gb2312" type="text/javascript" src="js/wow.min.js"></script>
+    <!-- 引用js文件 -->
+    <script charset="gb2312" type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+    <embed src="music.mp3" hidden="true" autostart="true" loop="true">
+    <div class="warp" id="warp">
+        <!---- 开始游戏 ---->
+        <div class="init" onclick="init();">
+        </div>
+        <!---- 关卡选择 ---->
+        <div class="init selece" onclick="selgs();">
+        </div>
+        <!---- 排行版 ---->
+        <div class="init list" onclick="list();">
+        </div>
+        <!---- 游戏说明 ---->
+        <div class="init selece play" onclick="play();">
+        </div>
+        <!---- 弹窗 ---->
+        <div class="CMP wow fadeInDown animated" id="CMP">
+            <div class="CMP_close" id="CMP_close" onclick="CMP();">
+            </div>
+            <input type="text" id="CMP_name" />
+            <div class="CMP_btn" id="CMP_btn" onclick="CMP_init();">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

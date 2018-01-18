@@ -1,0 +1,55 @@
+/* 首页样式 */
+* { margin: 0px; padding: 0px; font-family: 微软雅黑; overflow: hidden; }
+.warp { width: 986px; height: 895px; background: url("../img/index.png")no-repeat center; }
+.init { width: 288px; height: 104px; margin: 305px 53px 0px; }
+.selece { margin: 34px 53px 0px; }
+.list { margin: 29px 53px 0px; }
+.play { margin: 35px 53px 0px; }
+.CMP { width: 426px; height: 266px; background: url("../img/CMP.png")no-repeat center; margin-top: -514px; margin-left: 280px; display: block; }
+.CMP_close { width: 30px; height: 30px; float: right; margin: 6px 6px; }
+.CMP input { width: 326px; height: 36px; line-height: 36px; text-align: center; margin: 114px 50px 0px; outline: none; border: 0px; }
+.CMP_btn { width: 154px; height: 43px; margin: 8px 136px; }
+
+/* 游戏界面样式 */
+.warp2 { background: url("../img/init.png")no-repeat center; }
+.map { width: 954px; height: 742px; margin: 15px 16px; position: absolute; }
+.startdiv { width: 326px; height: 196px; line-height: 196px; text-align: center; background: rgba(0, 0, 0, 0.6); color: white; font-size: 30px; font-family: cursive; border: 2px solid white; border-radius: 10px; position: absolute; top: 273px; left: 314px; z-index: 1; }
+.m_div { width: 53px; height: 53px; position: absolute; }
+.bottom { width: 969px; height: 123px; margin: 772px 8px 0px; position: absolute; }
+.username { width: 133px; height: 40px; line-height: 40px; text-align: center; color: White; font-weight: bold; margin: 33px 22px 0px 13px; float: left; }
+.score { margin: 33px 8px 0px 8px; }
+.level { width: 94px; margin: 33px 27px 0px 27px; }
+.box_num { margin: 33px 27px 0px 8px; }
+.per_num { margin: 33px 16px 0px 8px; }
+.again_btn { width: 148px; height: 64px; border-radius: 15px; margin: 4px 0px 0px 2px; float: left; }
+.backstep { width: 89px; height: 62px; margin: 5px 0px 0px 12px; float: left; }
+.wtime_bar { width: 726px; height: 22px; border-radius: 30px; margin: 16px 0px 0px 106px; float: left; }
+.time_bar { height: 100%; line-height: 100%; text-align: center; color: White; background-color: #79CAEC; border-radius: 30px; }
+.retinit { width: 114px; height: 44px; float: left; margin-left: 13px; }
+
+/* 通关弹窗 */
+.sdiv { width: 986px; height: 895px; background-image: url("../img/success.png"); position: absolute; }
+.pnum { width: 38px; height: 21px; text-align: center; line-height: 21px; color: Black; font-family: 幼圆; margin: 502px 0px 0px 400px; float: left; }
+.gnum { margin: 502px 326px 0px 183px; }
+.next { width: 149px; height: 54px; margin: 555px 0px 0px 419px; }
+.enddiv { width: 986px; height: 895px; background-image: url("../img/end.png"); position: absolute; }
+.endding { width: 149px; height: 54px; margin: 542px 0px 0px 419px; }
+.fdiv { width: 986px; height: 895px; background-image: url("../img/fail.png"); position: absolute; }
+
+
+/* 关卡选择 */
+.seldiv { width: 700px; height: 600px; background: url("../img/selgs.png"); position: absolute; }
+.selclose { width: 37px; height: 37px; float: right; margin: 17px 25px; }
+.selwarp { width: 520px; height: 400px; margin: 130px auto 0px; }
+.swdiv { width: 100px; height: 100px; margin-right: 40px; margin-top: 40px; float: left; }
+
+/* 排行榜 */
+.listdiv { width: 700px; height: 600px; background: url("../img/list.png"); position: absolute; }
+.listclose { margin: 13px 22px; }
+.lwarp { width: 642px; height: 38px; margin-left: 17px; margin-top: 17px; }
+.lname { width: 116px; line-height: 38px; text-align: center; color: White; font-family: 微软雅黑; background-color: #896039; float: left; margin-left: 24px; }
+.ll { width: 81px; }
+
+/* 游戏说明 */
+.pdiv { width: 700px; height: 600px; background: url("../img/howtoplay.png"); position: absolute; }
+.pclose { margin: 21px 24px; }
